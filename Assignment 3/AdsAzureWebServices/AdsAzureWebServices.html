@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Azure Web Services Demo</h1>
+  <p>Please complete the following form:</p> 
+</div>
+  
+<div class="container">
+  <form  action="adsAzureWebServices" method="get">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Date</label>
+    <input type="text" class="form-control" name="date" id="exampleInputEmail1" placeholder="Enter date">
+  </div>
+  <div class="form-group">
+    <label for="exampleSelect1">Select Hour</label>
+    <select class="form-control" name="hour" id="exampleSelect1">
+      <option value=0>0</option>
+	  <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+      <option value=5>5</option>
+	  <option value=6>6</option>
+	  <option value=7>7</option>
+      <option value=8>8</option>
+      <option value=9>9</option>
+      <option value=10>10</option>
+      <option value=11>11</option>
+      <option value=12>12</option>
+      <option value=13>13</option>
+      <option value=14>14</option>
+      <option value=15>15</option>
+	  <option value=16>16</option>
+	  <option value=17>17</option>
+      <option value=18>18</option>
+      <option value=19>19</option>
+      <option value=20>20</option>
+      <option value=21>21</option>
+	  <option value=22>22</option>
+      <option value=23>23</option>
+    </select>
+  </div>
+  <fieldset class="form-group">
+    <legend>Algorithm type</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        KNN
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Random Forest
+      </label>
+    </div>
+    <div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+        Neural Network
+      </label>
+    </div>
+  </fieldset>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+</body>
+</html>

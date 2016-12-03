@@ -1,0 +1,13 @@
+{
+  "Inputs": {
+    "input1": [
+      {
+        "date" : "20140506",
+        "hour" :"175596",
+        "algo" :"Regression"
+        
+      }
+    ]
+  },
+  "GlobalParameters": {}
+}
