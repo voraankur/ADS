@@ -1,3 +1,11 @@
 1.zip -> all code files
 2.zip -> Data
 3.zip -> presentation and report
+
+Gmail:
+email     - ads2016team11@gmail.com
+password  - Fall@2016
+
+Azure Account Details:
+email     - ads2016team11@gmail.com
+password  - Fall@2016
